@@ -17,7 +17,7 @@ function displayImages(imagesPassingThrough) {
     
     let imageDiv = document.createElement("div");
     let imageTag = document.createElement("img");
-    let imageAuthor = document.createElement("h6");
+    let imageAuthor = document.createElement("h5");
 
     imageDiv.setAttribute("class", "img-div");
     imageTag.setAttribute("class","imageClass");
